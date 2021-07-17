@@ -26,7 +26,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>bin\Release\nupkg\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -43,6 +43,10 @@
     <None Include="nupkg\uwp-desktop-10586.targets" />
     <None Include="nupkg\uwp-desktop-14393.nuspec" />
     <None Include="nupkg\uwp-desktop-14393.targets" />
+    <None Include="nupkg\uwp-desktop-17763.nuspec" />
+    <None Include="nupkg\uwp-desktop-17763.targets" />
+    <None Include="nupkg\uwp-desktop-19041.nuspec" />
+    <None Include="nupkg\uwp-desktop-19041.targets" />
     <None Include="packages.config" />
     <None Include="nupkg\install.ps1" />
     <None Include="nupkg\uninstall.ps1" />
